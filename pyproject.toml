@@ -1,13 +1,16 @@
-
 [project]
 name = "pyant"
 version = "0.0.1"
 description = "Run xml formatted tasks"
-authors = ["Your Name <your.email@example.com>"]
+authors = [
+  {name = "Your Name", email = "your.name@example.com"},
+]
 readme = "README.md"
 requires-python = ">=3.8"
+dependencies = []
 
 [project.urls]
 Homepage = "https://github.com/jvhest/pyant"
 
-[project.dependencies]
+[project.scripts]
+run-pyant = "pyant.__main__:main"

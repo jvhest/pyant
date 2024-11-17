@@ -1,7 +1,7 @@
 import time
 
-from .xmlcomponent import XmlComponent
-from .datatypes.build_exception import BuildException
+from pyant.xmlcomponent import XmlComponent
+from pyant.datatypes.build_exception import BuildException
 
 
 class Task(XmlComponent):

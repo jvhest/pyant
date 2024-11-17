@@ -1,6 +1,4 @@
 import sys
-print(sys.path)
-
 import os
 import time
 
@@ -8,12 +6,12 @@ from xml.etree.ElementTree import ElementTree
 
 from typing import Dict
 
-from .properties import Properties
-from .datatypes.build_exception import BuildException
-from .handlers.build_logger import BuildLogger
-from .handlers.exec_logger import ExecLogger
-from .target import Target
-# import ..pyant.utils.utils
+from pyant.properties import Properties
+from pyant.datatypes.build_exception import BuildException
+from pyant.handlers.build_logger import BuildLogger
+from pyant.handlers.exec_logger import ExecLogger
+from pyant.target import Target
+import pyant.utils.utils as utils
 
 
 class Project:

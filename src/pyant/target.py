@@ -1,9 +1,8 @@
 import time
 
-from .utils import utils as utils
-from .xmlcomponent import XmlComponent
-from .datatypes.build_exception import BuildException
-
+import pyant.utils.utils as utils
+from pyant.xmlcomponent import XmlComponent
+from pyant.datatypes.build_exception import BuildException
 
 # Rules definition for Target, starting from 1,
 # just don't like to start from zero...

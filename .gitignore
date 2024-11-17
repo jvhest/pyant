@@ -3,6 +3,8 @@ __pycache__/
 
 # Virtual environment
 .venv
+.activate.sh
+.deactivate.sh
 
 # mypy
 .mypy_cache/
@@ -14,7 +16,11 @@ t
 
 # pytest
 .pytest_cache
+tests/*.log
+
 
 todo/
 
 .gitattributes
+
+pyant.egg-info/
