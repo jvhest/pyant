@@ -1,0 +1,13 @@
+
+[project]
+name = "pyant"
+version = "0.0.1"
+description = "Run xml formatted tasks"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/jvhest/pyant"
+
+[project.dependencies]

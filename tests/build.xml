@@ -1,0 +1,7 @@
+<project name="pyanttest"
+         basedir="/home/jvh/code/python/pyant/test"
+         buildlog="${pyant.basedir}/tesje.log">
+	<target name="test">
+		<echo message="dit is een echo test" ></echo>
+	</target>
+</project>
